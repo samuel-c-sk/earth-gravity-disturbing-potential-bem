@@ -54,8 +54,8 @@ gcc src/Source.cpp -O2 -fopenmp -DUSE_OPENMP -lm -o bem_solver
 ./bem_solver
 ```
 ## Output
-•	data1.dat: computed disturbing potential values at mesh vertices,
-•	optional output files used for EOC validation.
+- data1.dat: computed disturbing potential values at mesh vertices,
+- optional output files used for EOC validation.
 
 ## Background
 This project was developed within a university course on the Boundary Element Method,
